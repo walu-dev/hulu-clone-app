@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    color: white;
+    overflow-x: scroll;
+    padding: 10px;
+    padding-left: 10px;
+    
+}
+
+.nav{
+    scrollbar-width: none
+}
+
+.nav > h2 {
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 30px; 
+    margin-right: 30px;
+    font-weight: 500;
+    opacity: 0.7; /*the color of the text will reduce*/
+    transition: transform 50ms ease-out;
+}
+.nav > h2:hover{
+    opacity: 1;
+    transform: scale(1.2);
+
+}

@@ -1,0 +1,62 @@
+.header{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    padding: 3px;
+    
+}
+
+/*to hide the scroll bar for chrome safari and opera
+.header::-webkit-scrollbar {
+    display: none;
+}*/
+
+/*hie scrollbar for IE, Edge and Firefox*/
+.header{
+    -ms-overflow-style:none; /*IE and Edge*/
+    scrollbar-width: none; /*Firefox*/
+}
+
+/*classname for icons given by material-ui*/
+.header__icon > .MuiSvgIcon-root{
+    font-size: 30px;
+  margin-left: auto; /*a trick to center the items*/
+  margin-right: auto; 
+}
+
+.header__icon--active >p{
+    display: inline-flex !important;
+}
+
+.header__icon:hover > p{
+    display: inline-flex; /*words will appear when you hover*/
+}
+
+.header__icon > p{
+    display: none; /*hides the words*/
+    text-transform: uppercase;
+    letter-spacing: 3px; /*beefs up the letters*/
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: small;
+}
+
+.header__icon{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 100px;
+} 
+
+.header__icons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header > img{
+    object-fit: contain;
+    height: 80px;
+}

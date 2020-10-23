@@ -1,0 +1,11 @@
+//Tech
+REACT
+MATERIAL-UI
+FLEXBOX --dont need to install
+TMDB - API Calls to a movie server
+react flip move for Animations
+Deploy on firebase
+react text truncate
+axios
+
+https://hulu-clone-2aa29.web.app
